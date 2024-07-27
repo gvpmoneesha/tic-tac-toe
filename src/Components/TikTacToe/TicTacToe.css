@@ -47,13 +47,36 @@
 
 }
 
-.strike{
-    position: absolute;
-    background-color: red;
-}
+@media(max-width:768px){
+    .container{
+        text-align: center;
+    }
+    
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
 
-.strike-row-1{
-    width: 100%;
-    height: 4px;
-    top: 15%;
+    .boxes{
+        width: 100px;
+        height: 100px;
+    }
+
+    .board{
+       height: 375px;
+       width: 325px;
+       margin-top: 50px;
+    }
+
+    .reset{
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    .boxes img{
+        margin: 25px 25px 25px 25px;
+    
+    }
 }
